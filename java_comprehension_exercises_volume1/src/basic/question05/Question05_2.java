@@ -11,6 +11,19 @@ public class Question05_2 {
 	public static void main(String[] args) throws IOException {
 
 		// TODO:ここに実装
+		int[]numberGroup= {3,5,7,9};
+		
+		int four= numberGroup[3];
+		
+		if(four==3) {
+			System.out.println("4番目の要素は3です");
+		}else if(four==5) {
+			System.out.println("4番目の要素は5です");
+		}else if(four==7) {
+			System.out.println("4番目の要素は7です");
+		}else {
+			System.out.println("4番目の要素は3,5,7以外です");
+		}
 
 	}
 }

@@ -6,7 +6,21 @@ public class Question07_1 {
 
 	public static void main(String[] args) throws IOException {
 
-		// TODO:ここに実装
+	
+	int price=120;
+	String item ="ノート";
+	
+	System.out.println(price);
+	System.out.println(item);
+	
+	price=200;
+	item="鉛筆";
+	
+	System.out.println(price);
+	System.out.println(item);
+	
+	
+	
 
 	}
 
